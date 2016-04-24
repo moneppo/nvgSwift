@@ -10,6 +10,16 @@
 		96E9627F1CCB3A1100C38320 /* nvgSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9627E1CCB3A1100C38320 /* nvgSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96E962861CCB3A1100C38320 /* nvgSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E9627B1CCB3A1100C38320 /* nvgSwift.framework */; };
 		96E9628B1CCB3A1100C38320 /* nvgSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E9628A1CCB3A1100C38320 /* nvgSwiftTests.swift */; };
+		96E962A01CCB3B1300C38320 /* fontstash.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E962991CCB3B1300C38320 /* fontstash.h */; };
+		96E962A11CCB3B1300C38320 /* nanovg_gl_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9629A1CCB3B1300C38320 /* nanovg_gl_utils.h */; };
+		96E962A21CCB3B1300C38320 /* nanovg_gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9629B1CCB3B1300C38320 /* nanovg_gl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E962A31CCB3B1300C38320 /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 96E9629C1CCB3B1300C38320 /* nanovg.c */; };
+		96E962A41CCB3B1300C38320 /* nanovg.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9629D1CCB3B1300C38320 /* nanovg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E962A51CCB3B1300C38320 /* stb_image.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9629E1CCB3B1300C38320 /* stb_image.h */; };
+		96E962A61CCB3B1300C38320 /* stb_truetype.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E9629F1CCB3B1300C38320 /* stb_truetype.h */; };
+		96E962AA1CCBFE3600C38320 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E962A91CCBFE3600C38320 /* OpenGL.framework */; };
+		96E962AC1CCC014800C38320 /* nvgSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E962AB1CCC014800C38320 /* nvgSwift.swift */; };
+		96E962B01CCC038B00C38320 /* nvgSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E962AF1CCC038B00C38320 /* nvgSwift.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,17 @@
 		96E962851CCB3A1100C38320 /* nvgSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nvgSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E9628A1CCB3A1100C38320 /* nvgSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nvgSwiftTests.swift; sourceTree = "<group>"; };
 		96E9628C1CCB3A1100C38320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E962991CCB3B1300C38320 /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fontstash.h; path = nanovg/src/fontstash.h; sourceTree = "<group>"; };
+		96E9629A1CCB3B1300C38320 /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl_utils.h; path = nanovg/src/nanovg_gl_utils.h; sourceTree = "<group>"; };
+		96E9629B1CCB3B1300C38320 /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl.h; path = nanovg/src/nanovg_gl.h; sourceTree = "<group>"; };
+		96E9629C1CCB3B1300C38320 /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nanovg.c; path = nanovg/src/nanovg.c; sourceTree = "<group>"; };
+		96E9629D1CCB3B1300C38320 /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg.h; path = nanovg/src/nanovg.h; sourceTree = "<group>"; };
+		96E9629E1CCB3B1300C38320 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = nanovg/src/stb_image.h; sourceTree = "<group>"; };
+		96E9629F1CCB3B1300C38320 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = nanovg/src/stb_truetype.h; sourceTree = "<group>"; };
+		96E962A91CCBFE3600C38320 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		96E962AB1CCC014800C38320 /* nvgSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nvgSwift.swift; sourceTree = "<group>"; };
+		96E962AF1CCC038B00C38320 /* nvgSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nvgSwift.m; sourceTree = "<group>"; };
+		96E962B11CCC3CD300C38320 /* nanovg_gl_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nanovg_gl_swift.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E962AA1CCBFE3600C38320 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +75,14 @@
 		96E962711CCB3A1100C38320 = {
 			isa = PBXGroup;
 			children = (
+				96E962A91CCBFE3600C38320 /* OpenGL.framework */,
+				96E962991CCB3B1300C38320 /* fontstash.h */,
+				96E9629A1CCB3B1300C38320 /* nanovg_gl_utils.h */,
+				96E9629B1CCB3B1300C38320 /* nanovg_gl.h */,
+				96E9629C1CCB3B1300C38320 /* nanovg.c */,
+				96E9629D1CCB3B1300C38320 /* nanovg.h */,
+				96E9629E1CCB3B1300C38320 /* stb_image.h */,
+				96E9629F1CCB3B1300C38320 /* stb_truetype.h */,
 				96E9627D1CCB3A1100C38320 /* nvgSwift */,
 				96E962891CCB3A1100C38320 /* nvgSwiftTests */,
 				96E9627C1CCB3A1100C38320 /* Products */,
@@ -72,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				96E9627E1CCB3A1100C38320 /* nvgSwift.h */,
+				96E962AF1CCC038B00C38320 /* nvgSwift.m */,
+				96E962AB1CCC014800C38320 /* nvgSwift.swift */,
 				96E962801CCB3A1100C38320 /* Info.plist */,
+				96E962B11CCC3CD300C38320 /* nanovg_gl_swift.h */,
 			);
 			path = nvgSwift;
 			sourceTree = "<group>";
@@ -93,7 +126,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E962A41CCB3B1300C38320 /* nanovg.h in Headers */,
+				96E962A21CCB3B1300C38320 /* nanovg_gl.h in Headers */,
+				96E962A11CCB3B1300C38320 /* nanovg_gl_utils.h in Headers */,
+				96E962A51CCB3B1300C38320 /* stb_image.h in Headers */,
+				96E962A61CCB3B1300C38320 /* stb_truetype.h in Headers */,
 				96E9627F1CCB3A1100C38320 /* nvgSwift.h in Headers */,
+				96E962A01CCB3B1300C38320 /* fontstash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E962A31CCB3B1300C38320 /* nanovg.c in Sources */,
+				96E962AC1CCC014800C38320 /* nvgSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E9628B1CCB3A1100C38320 /* nvgSwiftTests.swift in Sources */,
+				96E962B01CCC038B00C38320 /* nvgSwift.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,30 +347,37 @@
 		96E962901CCB3A1100C38320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = nanovg/src;
 				INFOPLIST_FILE = nvgSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.moneppo.nvgSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		96E962911CCB3A1100C38320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = nanovg/src;
 				INFOPLIST_FILE = nvgSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
@@ -341,17 +390,22 @@
 		96E962931CCB3A1100C38320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = nvgSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.moneppo.nvgSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		96E962941CCB3A1100C38320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = nvgSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -379,6 +433,7 @@
 				96E962911CCB3A1100C38320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96E962921CCB3A1100C38320 /* Build configuration list for PBXNativeTarget "nvgSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -387,6 +442,7 @@
 				96E962941CCB3A1100C38320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

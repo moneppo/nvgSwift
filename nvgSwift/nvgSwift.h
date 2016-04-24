@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char nvgSwiftVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <nvgSwift/PublicHeader.h>
 
+#include "nanovg.h"
+#include <OpenGL/gl.h>
+
+#define NANOVG_GL2_IMPLEMENTATION   // Use GL2 implementation.
+#include "nanovg_gl.h"
 
